@@ -10,6 +10,26 @@ import java.util.Scanner;
 public class SearchEngineLogger {
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        //logs Launching the application
+        logAction("launch");
+
+        //logs searching for a term
+        while (true) {
+            System.out.println("Enter search term (X or x to exit): ");
+            String searchTerm = input.nextLine().trim();
+
+            //exit loop if user choose exit
+            if (searchTerm.equalsIgnoreCase("X")) {
+                break;
+            }
+
+            logAction("search : " + searchTerm);
+        }
+
+        //logs exiting the app
+        logAction("exit");
     }
 
     //log the time of action user take & write it in txt file
