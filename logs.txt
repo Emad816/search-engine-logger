@@ -1,0 +1,5 @@
+2026-11-04 21:36:12 launch
+2026-11-04 21:37:41 search : see you agian song
+2026-11-04 21:37:58 search : learn java
+2026-11-04 21:38:35 search : crypto
+2026-11-04 21:38:37 exit
